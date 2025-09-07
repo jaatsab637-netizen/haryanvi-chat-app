@@ -1,0 +1,57 @@
+# Haryanvi Chat App
+
+This is a chat application built with Node.js (Express), MongoDB, and React.  
+It lets Haryanvi boys chat with an AI-powered "girl" who replies in Haryanvi, in an Instagram-like interface.
+
+## Structure
+
+- `/server` — Backend (Node.js/Express/MongoDB/OpenAI)
+- `/client` — Frontend (React)
+
+---
+
+## Quick Start
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/jaatsab637-netizen/haryanvi-chat-app.git
+cd haryanvi-chat-app
+```
+
+### 2. Backend Setup
+
+```bash
+cd server
+npm install
+# Add your MongoDB URI and OpenAI API key to .env
+npm start
+```
+
+### 3. Frontend Setup
+
+```bash
+cd ../client
+npm install
+npm start
+```
+
+## Deploy
+
+- Frontend: Vercel (recommended)
+- Backend: Render, Heroku, or Railway
+
+---
+
+## Features
+
+- User authentication
+- Chat interface with real-time messages
+- AI-powered "girl" replies in Haryanvi
+- Instagram-style look
+
+---
+
+## License
+
+MIT
